@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std ;
+
+int main(){
+
+ cout << "Please enter your name:";
+ int variable_for_storing_number ;
+
+ cin>> variable_for_storing_number ;
+
+ if (variable_for_storing_number>0)
+ {
+     cout << "You are positive! - well your number is!" <<endl ;
+
+ }
+
+ else if (variable_for_storing_number <0 )
+ {
+      cout << "you're negative - well your number is !" <<endl ;
+ }
+return 0 ;
+}
